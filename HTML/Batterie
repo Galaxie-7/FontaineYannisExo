@@ -16,18 +16,18 @@
 	            <nav>
                     <nav class="navbar navbar-expand-lg navbar-Black bg-black">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="eCommerce.html"> <img src="./ImageAcceuil/Logo.png" alt="" height="80px" width="120px"></a>
+                            <a class="navbar-brand" href="index.html"> <img src="Images/Logo.png" alt="" height="80px" width="120px"></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div class="navbar-nav">
-                                    <a class="nav-link" href="eCommerce.html">Acceuil</a>
-                                    <a class="nav-link" href="Promotion.html">Promotion</a>
-                                    <a class="nav-link" aria-current="page" href="batterie.html">Batterie</a>
-                                    <a class="nav-link" href="Groupe-electrogene.html">Groupe électrogene</a>
-                                    <a class="nav-link" href="Citerne.html">Citerne d'eau</a>
-                                    <a class="nav-link" href="Panneaux-Solaires.html">Panneaux-Solaires</a>
+                                    <a class="nav-link" href="index.html">Acceuil</a>
+                                    <a class="nav-link" href="Promotion">Promotion</a>
+                                    <a class="nav-link" aria-current="page" href="Batterie">Batterie</a>
+                                    <a class="nav-link" href="Groupe">Groupe électrogene</a>
+                                    <a class="nav-link" href="Citerne">Citerne d'eau</a>
+                                    <a class="nav-link" href="Solaire">Panneaux-Solaires</a>
                                 </div>
 				                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                                     <button class="btn btn-primary me-md-2" type="button">Panier<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
@@ -39,16 +39,25 @@
 		            </nav> 
                     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="eCommerce.html">Acceuil</a></li>
-                            <li class="breadcrumb-item"><a href="Citerne.html">Citerne</a></li>
+                            <li class="breadcrumb-item"><a href="index.html">Acceuil</a></li>
+                            <li class="breadcrumb-item"><a href="Citerne">Citerne</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Batterie</li>
-                            <li class="breadcrumb-item"><a href="Panneaux-Solaires.html">Panneaux-Solaires</a></li>
-                            <li class="breadcrumb-item"><a href="Groupe-electrogene.html">Groupe-electrogene</a></li> 
+                            <li class="breadcrumb-item"><a href="Solaire">Panneaux-Solaires</a></li>
+                            <li class="breadcrumb-item"><a href="Groupe">Groupe-electrogene</a></li> 
                         </ol>
                     </nav>
 		        </nav>
-                <img src="./ImageAcceuil/recyclage-batterie-lithium-ion.jpg" width="100%" class="img-fluid" alt="..."> <br>
+                <img src="Images/batterielithiumion.jpg" width="100%" class="img-fluid" alt="..."> <br>
 	        </header>
+            <div class="nav-add-id">
+                <ul class="list-group">
+                    <li class="list-group-item">Se connecter</li>
+                    <li class="list-group-item">Mon compte</li>
+                    <li class="list-group-item">Mes notifications</li>
+                    <li class="list-group-item">Mon Panier</li>
+                    <li class="list-group-item">Mes commandes</li>
+                </ul>
+            </div>
             <div class="row">
 	            <main>
                     <h2>
@@ -61,7 +70,7 @@
 	        <article>
                 <div class="row">
                     <div class="card" style="width: 18rem;">
-                        <img src="./Batterie/Batterie-02.jpg" height="200px" width="200px" class="card-img-top" alt="...">
+                        <img src="Images/Batterie-02.jpg" height="200px" width="200px" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Batterie 80AV</h5>
                             <p class="card-text"> 179 €</p>
@@ -89,7 +98,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
-                        <img src="./Batterie/Batterie-03.jpg" height="200px" width="200px" class="card-img-top" alt="...">
+                        <img src="Images/Batterie-03.jpg" height="200px" width="200px" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Batterie 80 AV</h5>
                             <p class="card-text">210 €</p>
@@ -117,7 +126,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
-                        <img src="./Batterie/Batterie-04.jpg" height="200px" width="200px" class="card-img-top" alt="...">
+                        <img src="Images/Batterie-04.jpg" height="200px" width="200px" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Batterie 90 AV</h5>
                             <p class="card-text">200 €</p>
@@ -147,7 +156,7 @@
                 </div>
                 <div class="row">
                     <div class="card" style="width: 18rem;">
-                        <img src="./Batterie/Batterie-05.jpg" height="200px" width="200px" class="card-img-top" alt="...">
+                        <img src="Images/Batterie-05.jpg" height="200px" width="200px" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Batterie 120 AV</h5>
                             <p class="card-text">220 €</p>
@@ -175,7 +184,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
-                        <img src="./Batterie/Batterie-06.jpg" height="200px" width="200px" class="card-img-top" alt="...">
+                        <img src="Images/Batterie-06.jpg" height="200px" width="200px" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Batterie 120 AV</h5>
                             <p class="card-text">250 €</p>
@@ -203,7 +212,7 @@
                         </div>
                     </div>    
                     <div class="card" style="width: 18rem;">
-                        <img src="./Batterie/Batterie-07.jpg" height="200px" width="200px" class="card-img-top" alt="...">
+                        <img src="Images/Batterie-07.jpg" height="200px" width="200px" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Batterie 140 AV</h5>
                             <p class="card-text">350 €</p>
@@ -233,7 +242,7 @@
                 </div>
                 <div class="row">
                     <div class="card" style="width: 18rem;">
-                        <img src="./Batterie/Batterie-08.jpg" height="200px" width="200px" class="card-img-top" alt="...">
+                        <img src="Images/Batterie-08.jpg" height="200px" width="200px" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Batterie 140 AV</h5>
                         <p class="card-text"> 360 €</p>

@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Free Web tutorials">
     <meta name="keywords" content="HTML,CSS,XML,Javascript">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Fontaine Yannis">
     <meta name="viewport" content="width= , initial-scale=1.0">
     <title>Groupe électrogène</title>
@@ -15,17 +14,17 @@
 	    <header>
             <nav class="navbar navbar-expand-lg navbar-black bg-black">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="eCommerce.html"> <img src="./ImageAcceuil/Logo.png" alt="" height="80px" width="120px"></a>
+                    <a class="navbar-brand" href="index.html"> <img src="./Images/Logo.png" alt="" height="80px" width="120px"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link" href="eCommerce.html">Acceuil</a>
-                            <a class="nav-link" href="Promotion.html">Promotion</a>
-                            <a class="nav-link" href="Panneaux-Solaires.html">Panneaux solaire</a>
+                            <a class="nav-link" href="index.html">Acceuil</a>
+                            <a class="nav-link" href="Promotion">Promotion</a>
+                            <a class="nav-link" href="Solaire">Panneaux solaire</a>
                             <a class="nav-link" aria-current="page">Groupe électrogene</a>
-                            <a class="nav-link" href="Citerne.html">Citerne d'eau</a>
-                            <a class="nav-link" href="batterie.html">Batterie</a>
+                            <a class="nav-link" href="Citerne">Citerne d'eau</a>
+                            <a class="nav-link" href="Batterie">Batterie</a>
                         </div>
                     </div>
                 </div>
@@ -46,7 +45,7 @@
                 </ol>
             </nav>
             <div>
-                <img src="./ImageAcceuil/groupe electrogene.jpg" width="100%" class="img-fluid" alt="...">
+                <img src="Images/groupe electrogene.jpg" width="100%" class="img-fluid" alt="...">
             </div> <br>
 	    </header>
 	    <main>
@@ -56,10 +55,19 @@
                 </h2>
             </div>
         </main>
+        <div class="nav-add-id">
+            <ul class="list-group">
+                <li class="list-group-item">Se connecter</li>
+                <li class="list-group-item">Mon compte</li>
+                <li class="list-group-item">Mes notifications</li>
+                <li class="list-group-item">Mon Panier</li>
+                <li class="list-group-item">Mes commandes</li>
+            </ul>
+        </div>
         <section>
             <div class="row">
                 <div class="card" style="width: 18rem;">
-                    <img src="./Groupe electrogene/Groupe-01.jpg" height="200px" width="200px" class="card-img-top" alt="...">
+                    <img src="Images/Groupe-01.jpg" height="200px" width="200px" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Groupe électrogene diesel</h5>
                         <p class="card-text"> 150 €</p>
@@ -87,7 +95,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="./Groupe electrogene/Groupe-02.jpg" height="200px" width="200px" class="card-img-top" alt="...">
+                    <img src="Images/Groupe-02.jpg" height="200px" width="200px" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Groupe électrogène essence</h5>
                         <p class="card-text">170 €</p>
@@ -115,7 +123,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="./Groupe electrogene/Groupe-03.jpg" height="200px" width="200px" class="card-img-top" alt="...">
+                    <img src="Images/Groupe-03.jpg" height="200px" width="200px" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Groupe électrogène essence</h5>
                         <p class="card-text">200 €</p>
@@ -145,7 +153,7 @@
             </div>
             <div class="row">
                 <div class="card" style="width: 18rem;">
-                    <img src="./Groupe electrogene/Groupe-04.jpg" height="200px" width="200px" class="card-img-top" alt="...">
+                    <img src="Images/Groupe-04.jpg" height="200px" width="200px" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Groupe électrogène diesel</h5>
                         <p class="card-text">195 €</p>
@@ -173,7 +181,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="./Groupe electrogene/Groupe-05.webp" height="200px" width="200px" class="card-img-top" alt="...">
+                    <img src="Images/Groupe-05.webp" height="200px" width="200px" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Groupe électrogène diesel</h5>
                         <p class="card-text">250 €</p>
@@ -201,7 +209,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="./Groupe electrogene/Groupe-06.jpg" height="200px" width="200px" class="card-img-top" alt="...">
+                    <img src="Images/Groupe-06.jpg" height="200px" width="200px" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Groupe électrogène essence</h5>
                         <p class="card-text">350 €</p>
