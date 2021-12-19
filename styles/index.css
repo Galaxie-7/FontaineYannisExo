@@ -1,0 +1,28 @@
+.img-1{
+        height: auto;
+        max-width: 100%;
+        text-align: center;
+        padding: 1%;
+    }
+h2{
+    text-align: center;
+    }
+div > ul{
+    list-style: none;
+    position: absolute;
+    }
+div > ul > li > img{
+    height: 40px;
+    width: 40px;
+    }
+span > img{
+    height: 30px;
+    width: 30px;
+    }
+p{
+    padding: 10%;
+    }
+footer{
+    background-color: rgb(18, 24, 107);
+    height: 150px;
+    }

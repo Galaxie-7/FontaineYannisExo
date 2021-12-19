@@ -1,0 +1,12 @@
+.card{
+    margin: 5%;
+    padding: 5%;
+    }
+div > ul > li > img{
+    height: 40px;
+    width: 40px;
+    }
+div > ul{
+    list-style: none;
+    position: fixed;
+    }

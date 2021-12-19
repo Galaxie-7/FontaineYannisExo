@@ -1,0 +1,8 @@
+.card{
+    margin: 5%;
+    padding: 5%;
+    }
+div > ul{
+    list-style: none;
+    position: fixed;
+    }
