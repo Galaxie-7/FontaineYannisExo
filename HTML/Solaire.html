@@ -17,18 +17,18 @@
 	            <nav>
                     <nav class="navbar navbar-expand-lg navbar-black bg-black">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="index.html"> <img src="./Images/Logo.png" alt="" height="80px" width="120px"></a>
+                            <a class="navbar-brand" href="./index.html"> <img src="./Images/Logo.png" alt="" height="80px" width="120px"></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div class="navbar-nav">
                                     <a class="nav-link" href="./index.html">Acceuil</a>
-                                    <a class="nav-link" href="./Promotion">Promotion</a>
-                                    <a class="nav-link" aria-current="page" href="./Solaire">Panneaux solaire</a>
-                                    <a class="nav-link" href="./Groupe">Groupe électrogene</a>
-                                    <a class="nav-link" href="./Citerne">Citerne d'eau</a>
-                                    <a class="nav-link" href="./Batterie">Batterie</a>
+                                    <a class="nav-link" href="./Promotion.html">Promotion</a>
+                                    <a class="nav-link" aria-current="page" href="./Solaire.html">Panneaux solaire</a>
+                                    <a class="nav-link" href="./Groupe.html">Groupe électrogene</a>
+                                    <a class="nav-link" href="./Citerne.html">Citerne d'eau</a>
+                                    <a class="nav-link" href="./Batterie.html">Batterie</a>
                                 </div>
                             </div>
                         </div>
@@ -38,6 +38,20 @@
                             </button>
                         </div>
                     </nav>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Se connecter</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Mon compte</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Mes notifications</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link">Mes commandes</a>
+                        </li>
+                    </ul>
                     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="./index.html">Acceuil</a></li>
@@ -48,7 +62,7 @@
                             <li class="breadcrumb-item"><a href="./Batterie.html">Batterie</a></li>
                         </ol>
                     </nav>
-                </nav> 
+                </nav>
                 <section>
                     <div>
                         <img src="Images/Énergies-solaires.jpg" width="100%" class="img-fluid" alt="...">
@@ -62,15 +76,6 @@
                 </h2>
             </div>
         </main>
-        <div class="nav-add-id">
-            <ul class="list-group">
-                <li class="list-group-item">Se connecter</li>
-                <li class="list-group-item">Mon compte</li>
-                <li class="list-group-item">Mes notifications</li>
-                <li class="list-group-item">Mon Panier</li>
-                <li class="list-group-item">Mes commandes</li>
-            </ul>
-        </div>
         <article>
             <div class="row">
                 <div class="card" style="width: 18rem;">
@@ -160,7 +165,7 @@
             </div>
             <div class="row">
                 <div class="card" style="width: 18rem;">
-                    <img src="./Images/Solaire-04.jfif" height="200px" width="200px" class="card-img-top" alt="...">
+                    <img src="./Images/Solaire-09.jpg" height="200px" width="200px" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Panneau 10v</h5>
                         <p class="card-text">195 €</p>
@@ -188,7 +193,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="./Images/Solaire-05.jfif" height="200px" width="200px" class="card-img-top" alt="...">
+                    <img src="./Images/Solaire-10.jpg" height="200px" width="200px" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Panneau 15v</h5>
                         <p class="card-text">250 €</p>
@@ -216,69 +221,13 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="./Images/Solaire-06.jfif" height="200px" width="200px" class="card-img-top" alt="...">
+                    <img src="./Images/Solaire-08.jpg" height="200px" width="200px" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Panneau 20v</h5>
                         <p class="card-text">350 €</p>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Ajouter au panier
-                        </button>
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Vous allez ajouter un article a votre panier</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                                        <button type="button" class="btn btn-primary">Ajouter</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="card" style="width: 18rem;">
-                    <img src="./Images/Solaire-07.jpg" height="200px" width="200px" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Panneau 25v</h5>
-                    <p class="card-text">310 €</p>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                         Ajouter au panier
-                    </button>
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Vous allez ajouter un article a votre panier</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                                    <button type="button" class="btn btn-primary">Ajouter</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="./Images/Solaire-08.jpg" height="200px" width="200px" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Panneau 30v</h5>
-                        <p class="card-text">380 €</p>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Ajouter au panier
                         </button>
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
