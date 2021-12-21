@@ -4,6 +4,9 @@
         text-align: center;
         padding: 1%;
     }
+nav > ul{
+    background-color: black;
+    }
 h2{
     text-align: center;
     }
@@ -23,6 +26,5 @@ p{
     padding: 10%;
     }
 footer{
-    background-color: rgb(18, 24, 107);
     height: 150px;
     }
